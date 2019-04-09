@@ -1,0 +1,25 @@
+{
+  "name": "express-google-play",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node server",
+    "debug": "ndb node server",
+    "dev": "nodemon server",
+    "test": "mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.2",
+    "nodemon": "^1.18.11",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "morgan": "^1.9.1"
+  }
+}
